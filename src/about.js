@@ -24,7 +24,7 @@ export default function About() {
             <img
               
               src="https://plus.unsplash.com/premium_photo-1707816501228-1d814ad62d7b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGJveXxlbnwwfHwwfHx8MA%3D%3D"
-              alt="image"
+              alt="imae"
               width="100%"
               height="400"
               className="text-center mt-md-4 mt-2 p-2"
