@@ -158,7 +158,7 @@ Culpa incididunt in ipsum pariatur pariatur sint laborum voluptate sunt ea velit
               ></textarea>
             </div>
             <div style={{ textAlign: "center", marginTop: "20px" }}>
-              <a type="submit" className="cavets " style={{backgroundColor:'#ffffff',color:'#000000',padding:5,width:100,borderRadius:10,textDecoration:'none'}}>
+              <a href="/Contact" type="submit" className="cavets " style={{backgroundColor:'#ffffff',color:'#000000',padding:5,width:100,borderRadius:10,textDecoration:'none'}}>
                 Submit
               </a>
             </div>
