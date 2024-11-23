@@ -13,7 +13,7 @@ export default function About() {
   const [selectedSkill, setSelectedSkill] = useState("Proffesional");
 
   return (
-    <div style={{backgroundColor:'#e9e9e9'}} style={{width:'100%'}}>
+    <div style={{backgroundColor:'#e9e9e9",width:"100%"}}>
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-12 pt-5">
@@ -22,12 +22,12 @@ export default function About() {
             </h1>
             <h3 className="cavets text-center" style={{ marginLeft: 100, fontSize: 50 }} data-aos="fade-right" data-aos-duration="1000">me</h3>
             <img
-              className="text-center"
+              
               src="https://plus.unsplash.com/premium_photo-1707816501228-1d814ad62d7b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fGJveXxlbnwwfHwwfHx8MA%3D%3D"
               alt="image"
               width="100%"
               height="400"
-              className="mt-md-4 mt-2 p-2"
+              className="text-center mt-md-4 mt-2 p-2"
               data-aos="fade-down" data-aos-duration="1000"
             />
             <p data-aos="fade-up" data-aos-duration="1000" className="abs text-center p-md-5 p-2 p-lg-5">
