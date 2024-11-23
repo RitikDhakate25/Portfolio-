@@ -1,0 +1,227 @@
+
+
+
+ .no-underline:hover{
+   color:green;
+ }
+ .bottomfooter{
+   background-color: black;
+   width: 100%;
+   height: 100%;
+   margin-right:-20px;
+   padding:0px;
+ }
+ .copyright{
+   color: white;
+   text-align: center;
+   padding:10px;
+   
+ }
+  
+ .custom-navbar {
+  background-color: black !important;
+ /* box-shadow: 0px 4px 10px yellow !important;
+*/
+}
+
+/* Remove outline/border on the hamburger icon when clicked */
+.custom-toggler:hover {
+  outline: none;
+  
+}
+ 
+/* Basic styling for each box */
+.cd{
+  background-color: #000000;
+  color: #ffffff;
+  width:300px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin:10px;
+ /*box-shadow: 2px 2px 5px rgba(113,252,222,0.947), 5px 5px 10px rgba(113,252,222,0.947);
+*/
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.seemore {
+  padding: 0;
+  border-radius: 30px;
+  width: 220px;
+  font-size: 20px;
+  background-color: #fbb91c; /* Default background color */
+  color: black;
+   
+  transition: background-color 0.4s ease, transform 0.2s ease;
+}
+
+.seemore:hover {
+  background-color: #6baf85; /* Background color on hover */
+  transform: scale(1.05);
+ color:white;
+  /* Slightly enlarge on hover */
+}
+
+.seemore:active {
+  background-color: #47eef9; /* Background color on click */
+  transform: scale(0.95); 
+  color:white;
+  /* Slightly shrink on click */
+}
+
+ 
+ .skill-link {
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.skill-link.active {
+  color: red; /* Change color to red when active */
+}
+
+.skill-link.active::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: red;
+  left: 0;
+  bottom: -5px;
+  transition: width 0.3s ease;
+}
+
+.skill-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background-color: red;
+  left: 0;
+  bottom: -5px;
+  transition: width 0.3s ease;
+}
+
+.skill-link:hover::after {
+  width: 100%;
+}
+
+/* Style for active link with red color and underline */
+.nav-link {
+  position: relative;
+  color: green;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: red;
+  width:100px;
+}
+
+.nav-link.active-link {
+  color: red;
+  width:100px;
+}
+
+.nav-link.active-link::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color:red ;
+  left: 0;
+  bottom: -2px;
+  transition: width 0.3s ease;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: red;
+  left: 0;
+  bottom: -2px;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active-link::after {
+  width: 100%;
+}
+
+.ra{
+  background: linear-gradient(90deg, #f12a41, #4059f4); /* Adjust colors and angle as needed */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  
+
+  font-family: "Arima", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.abs{
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ .cavets{
+   font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
+  
+ }
+ .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.ft{
+   background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+     background-size: cover;       /* Scales image to cover the div, maintaining aspect ratio */
+  background-position: center;  /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 100%;                /* Adjust height based on your needs */
+  width: 100%;          
+}
+/* Default color for links (for mobile screens) */
+.navbar .nav-link {
+  color: black;
+}
+
+/* Color for larger screens (laptop and above) */
+@media (min-width: 992px) {
+  .navbar .nav-link {
+    color: white;
+  }
+}
+
+/* Optional: Style for active link to remain visible */
+.navbar .nav-link.active-link {
+  color: #ff9900; /* Choose a color for active state */
+}
+.let{
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.cmd{
+  background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+  box-shadow: rgb(255,255,255) 0px 10px 20px, rgba(255,255,255,0.86) 0px 6px 6px;
+}
+.tored{
+  background-color: rgba(255, 255, 255, 0.8); /* White with some opacity */
+  filter: blur(10px); /* Apply blur effect */
+  border-radius: 10px; /* Optional: Rounded corners */
+  padding: 0px; /* Optional: Spacing inside the div */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+  
+  
+  
