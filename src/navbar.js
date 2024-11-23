@@ -23,7 +23,7 @@ export default function Navbar() {
     <div className="App">
       <nav className="navbar navbar-expand-lg navbar-light fixed-top custom-navbar">
         <div className="container-fluid">
-          <a>
+          <a href="/">
             <img src="./images/rrd.jpeg" alt="Brand" width="30px" height="30px" style={{ borderRadius: 50 }} />
           </a>
 
