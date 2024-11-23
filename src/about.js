@@ -13,7 +13,7 @@ export default function About() {
   const [selectedSkill, setSelectedSkill] = useState("Proffesional");
 
   return (
-    <div style={{backgroundColor:'#e9e9e9",width:"100%"}}>
+    <div style={{backgroundColor:'#e9e9e9' ,width:"100%"}}>
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-12 pt-5">
